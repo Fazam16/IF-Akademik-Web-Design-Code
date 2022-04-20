@@ -804,6 +804,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -1915,6 +1920,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     left: 0px;
   }
 
+  .lg\:right-9 {
+    right: 2.25rem;
+  }
+
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1987,6 +1996,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:mt-\[110rem\] {
     margin-top: 110rem;
+  }
+
+  .lg\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .lg\:mr-5 {
+    margin-right: 1.25rem;
   }
 
   .lg\:block {
