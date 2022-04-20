@@ -37,25 +37,49 @@
 
             <div class="w-full hidden lg:block absolute text-center top-4 font-bold">
                 <a href="index.html" class="inline-block mx-5 poppins hover:text-slate-400">Home</a>
-                <a href="#kategori" class="inline-block mx-5 poppins hover:text-slate-400">Kategori</a>
+
+                <button type="button" name="kategori" id="kategori" class="inline-block mx-5 poppins hover:text-slate-400 font-bold">
+                Kategori
+            </button>
+
+                <div id="drop" class="hidden absolute right-[46%] poppins px-5 py-3 font-semibold top-10 bg-[#E6DF9A] customShadow rounded-xl">
+                    <ul>
+                        <li class="border-b-2 border-b-slate-500"><a href="tarian.html" class="hover:text-slate-500">Tarian Daerah</a></li>
+                        <li class="border-b-2 border-b-slate-500"><a href="lagu.html" class="hover:text-slate-500">Lagu Daerah</a></li>
+                        <li class="border-b-2 border-b-slate-500"><a href="#" class="hover:text-slate-500">Makanan Daerah</a></li>
+                    </ul>
+                </div>
+
                 <a href="#kontak" class="inline-block mx-5 poppins hover:text-slate-400">Hubungi Kami</a>
+
             </div>
 
             <div class="flex items-center px-4 lg:hidden">
-                <button type="button" id="hamburger" name="hamburger" class="absolute right-6">
-                    <span class="hamburger transition duration-300 ease-in-out origin-top-left"></span>
-                    <span class="hamburger transition duration-300 ease-in-out"></span>
-                    <span class="hamburger transition duration-300 ease-in-out origin-bottom-left"></span>
-                </button>
+                <button type="button" id="hamburger" name="hamburger" class="absolute right-4">
+                <span class="hamburger transition duration-300 ease-in-out origin-top-left"></span>
+                <span class="hamburger transition duration-300 ease-in-out"></span>
+                <span class="hamburger transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
 
                 <nav id="nav-menu" class="hidden absolute poppins px-5 py-3 font-semibold bg-[#E6DF9A] customShadow rounded-l-2xl border-4 border-slate-500 rounded-br-2xl max-w-[250-px] right-10 top-6">
                     <ul class="block">
                         <li class="inline-block mx-5">
                             <a href="index.html" class="hover:text-slate-500">Home</a>
                         </li>
-                        <li class="inline-block mx-5">
-                            <a href="#kategori" class="hover:text-slate-500">Kategori</a>
+                        <li class="inline-block mx-4">
+                            <button type="button" name="kategori1" id="kategori1" class="inline-block mx-5 poppins hover:text-slate-400 font-bold">
+                        Kategori
+                    </button>
+
+                            <div id="drop1" class="hidden absolute poppins left-[6.5rem] px-5 py-3 font-semibold top-10 bg-[#E6DF9A] customShadow rounded-xl">
+                                <ul>
+                                    <li class="border-b-2 border-b-slate-500"><a href="tarian.html" class="hover:text-slate-500">Tarian Daerah</a></li>
+                                    <li class="border-b-2 border-b-slate-500"><a href="lagu.html" class="hover:text-slate-500">Lagu Daerah</a></li>
+                                    <li class="border-b-2 border-b-slate-500"><a href="#" class="hover:text-slate-500">Makanan Daerah</a></li>
+                                </ul>
+                            </div>
                         </li>
+
                         <li class="inline-block mx-5">
                             <a href="#kontak" class="hover:text-slate-500">Hubungi Kami</a>
                         </li>
@@ -65,12 +89,12 @@
         </div>
     </div>
 
-    <div class="container max-w-full">
-        <h1 class="p-5 md:pl-5 md:pt-5 lg:mb-2 md:p-0 uppercase kanit text-5xl font-bold text-white stroke md:text-6xl lg:text-7xl">Lagu Daerah</h1>
+    <div class="container max-w-full mt-4">
+        <h1 class="p-5 md:pl-5 md:pt-5 lg:mb-2 md:p-0 uppercase kanit text-5xl mb-4 font-bold text-white stroke md:text-6xl lg:text-7xl">Lagu Daerah</h1>
         <!-- Lagu Pertama -->
         <div class="batanghari mb-7">
             <div class="md:flex relative md:h-[19rem] lg:h-[48rem] xl:h-[60rem]">
-                <div class="bg-[#DAD992] md:my-auto lg:my-0 md:bg-white md:shadow-none lg:w-[60%] sm:w-[50%] w-1/2 rounded-r-full h-[3rem] sm:h-[3.5rem] relative px-5 border-4 border-white customShadow">
+                <div class="bg-[#DAD992] md:my-auto lg:my-0 md:bg-white md:shadow-none lg:w-[60%] sm:w-[50%] w-1/2 rounded-r-full h-[3rem] sm:h-[3.5rem] relative px-5 customShadow">
                     <h2 class="text-xl xl:text-5xl sm:text-3xl md:text-4xl absolute right-6 sm:right-0 sm:left-4 font-semibold inline-block top-1">
                         1. Batanghari
                     </h2>
@@ -93,7 +117,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="hidden md:block md:right-0 md:rounded-l-full md:absolute customShadow xl:w-[37rem] xl:h-[25rem] lg:h-[24rem] lg:top-40 md:top-10 my-10 md:my-0 w-[23rem] md:h-[15rem] h-[16rem] sm:w-[26rem] sm:h-[19rem] md:p-1 p-3">
+                <div class="hidden md:block md:right-0 md:rounded-l-full md:absolute customShadow xl:w-[33rem] xl:h-[25rem] lg:h-[24rem] lg:top-40 md:top-10 my-10 md:my-0 w-[23rem] md:h-[15rem] h-[16rem] sm:w-[26rem] sm:h-[19rem] md:p-1 p-3">
                     <img src="./img/batanghari.jfif" alt="Lagu Batanghari" class="h-full w-full rounded-xl md:rounded-l-full">
                 </div>
             </div>
@@ -129,7 +153,7 @@
     <!-- Lagu Kedua -->
     <div class="ketimunbungkuk mb-7">
         <div class="md:flex relative md:h-[19rem] lg:h-[80rem] xl:h-[105rem]">
-            <div class="hidden md:block md:left-0 md:rounded-r-full md:absolute customShadow xl:w-[37rem] xl:h-[25rem] xl:top-44 md:top-10 my-10 lg:h-[24rem] lg:top-40 md:my-0 w-[23rem] md:h-[15rem] h-[16rem] sm:w-[26rem] sm:h-[19rem] md:p-1 p-3">
+            <div class="hidden md:block md:left-0 md:rounded-r-full md:absolute customShadow xl:w-[33rem] xl:h-[25rem] xl:top-44 md:top-10 my-10 lg:h-[24rem] lg:top-40 md:my-0 w-[23rem] md:h-[15rem] h-[16rem] sm:w-[26rem] sm:h-[19rem] md:p-1 p-3">
                 <img src="./img/ketimun bungkuk.jpg" alt="Lagu Batanghari" class="h-full w-full rounded-xl md:rounded-r-full ">
             </div>
             <div class="bg-[#DAD992] lg:-right-1 lg:my-0 md:my-auto md:right-8 md:bg-white md:shadow-none lg:w-[60%] sm:w-[50%] md:w-[41%] w-1/2 rounded-r-full h-[3rem] sm:h-[3.5rem] relative md:absolute lg:top-0 md:top-32 px-5 border-4 border-white customShadow">
@@ -230,7 +254,7 @@
                     </p>
                 </div>
             </div>
-            <div class="hidden md:block md:right-0 md:rounded-l-full md:absolute customShadow lg:h-[24rem] xl:w-[37rem] xl:h-[25rem] lg:top-40 md:top-10 my-10 md:my-0 w-[23rem] md:h-[15rem] h-[16rem] sm:w-[26rem] sm:h-[19rem] md:p-1 p-3">
+            <div class="hidden md:block md:right-0 md:rounded-l-full md:absolute customShadow lg:h-[24rem] xl:w-[33rem] xl:h-[25rem] lg:top-40 md:top-10 my-10 md:my-0 w-[23rem] md:h-[15rem] h-[16rem] sm:w-[26rem] sm:h-[19rem] md:p-1 p-3">
                 <img src="./img/rangkayo.jpg" alt="Lagu Batanghari" class="h-full w-full rounded-xl md:rounded-l-full">
             </div>
         </div>
@@ -272,7 +296,7 @@
     <!-- Lagu keempat -->
     <div class="batikjambi mb-7">
         <div class="md:flex relative md:h-[19rem] lg:h-[80rem] xl:h-[85rem]">
-            <div class="hidden md:block md:left-0 md:rounded-r-full md:absolute customShadow xl:w-[37rem] xl:h-[25rem] xl:top-44 md:top-10 my-10 lg:top-10 lg:h-[24rem] md:my-0 w-[23rem] md:h-[15rem] h-[16rem] sm:w-[26rem] sm:h-[19rem] md:p-1 p-3">
+            <div class="hidden md:block md:left-0 md:rounded-r-full md:absolute customShadow xl:w-[33rem] xl:h-[25rem] xl:top-44 md:top-10 my-10 lg:top-10 lg:h-[24rem] md:my-0 w-[23rem] md:h-[15rem] h-[16rem] sm:w-[26rem] sm:h-[19rem] md:p-1 p-3">
                 <img src="./img/batik.jpg" alt="Lagu Batanghari" class="h-full w-full rounded-xl md:rounded-r-full ">
             </div>
             <div class="bg-[#DAD992] lg:-right-1 lg:my-0 md:my-auto md:right-8 md:bg-white md:shadow-none lg:w-[60%] sm:w-[50%] md:w-[41%] w-1/2 rounded-r-full h-[3rem] sm:h-[3.5rem] relative md:absolute lg:top-0 md:top-32 px-5 border-4 border-white customShadow">
@@ -336,6 +360,7 @@
             </div>
         </div>
     </div>
+
     <div class="footer pt-5 w-full mt-10" id="kontak">
         <div class="bg-[#DAD992] px-5 py-5 ">
             <h4 class="poppins font-bold text-md text-center py-4 uppercase ">Dinas Kebudayaan dan Pariwisata</h4>

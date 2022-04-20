@@ -730,6 +730,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 46%;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
+.left-16 {
+  left: 4rem;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-28 {
+  left: 7rem;
+}
+
+.left-\[6\.5rem\] {
+  left: 6.5rem;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -773,6 +797,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-60 {
   margin-top: 15rem;
   margin-bottom: 15rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mt-10 {
@@ -861,6 +890,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.-mb-4 {
+  margin-bottom: -1rem;
+}
+
+.-mb-6 {
+  margin-bottom: -1.5rem;
 }
 
 .block {
@@ -2348,6 +2389,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:w-\[34\.5rem\] {
     width: 34.5rem;
+  }
+
+  .xl\:w-\[30rem\] {
+    width: 30rem;
+  }
+
+  .xl\:w-\[33rem\] {
+    width: 33rem;
   }
 
   .xl\:max-w-full {
