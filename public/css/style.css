@@ -835,6 +835,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -1231,6 +1235,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-72 {
   padding-top: 18rem;
+}
+
+.pt-96 {
+  padding-top: 24rem;
 }
 
 .text-center {
