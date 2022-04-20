@@ -30,7 +30,41 @@
 </head>
 
 <body>
+    <div class="container max-w-full h-14 bg-[#DAD992]" id="home">
+        <div class="flex gap-2 sm:gap-4">
+            <img src="./img/PROV JAMBI_PNG.png" alt="logo provinsi jambi" class="w-14 h-12 pt-2 pl-4 sm:w-16 sm:h-12 sm:pt-2 sm:pl-7">
+            <h1 class="kaushan text-2xl py-3">Kebudayaan Jambi</h1>
 
+            <div class="w-full hidden lg:block absolute text-center top-4 font-bold">
+                <a href="#home" class="inline-block mx-5 poppins hover:text-slate-400">Home</a>
+                <a href="#kategori" class="inline-block mx-5 poppins hover:text-slate-400">Kategori</a>
+                <a href="#kontak" class="inline-block mx-5 poppins hover:text-slate-400">Hubungi Kami</a>
+            </div>
+
+            <div class="flex items-center px-4 lg:hidden">
+                <button type="button" id="hamburger" name="hamburger" class="absolute right-4">
+                            <span class="hamburger transition duration-300 ease-in-out origin-top-left"></span>
+                            <span class="hamburger transition duration-300 ease-in-out"></span>
+                            <span class="hamburger transition duration-300 ease-in-out origin-bottom-left"></span>
+                        </button>
+
+                <nav id="nav-menu" class="hidden absolute poppins px-5 py-3 font-semibold bg-[#E6DF9A] customShadow rounded-l-2xl border-4 border-slate-500 rounded-br-2xl max-w-[250-px] right-10 top-6">
+                    <ul class="block">
+                        <li class="inline-block mx-5">
+                            <a href="#home" class="hover:text-slate-500">Home</a>
+                        </li>
+                        <li class="inline-block mx-5">
+                            <a href="#kategori" class="hover:text-slate-500">Kategori</a>
+                        </li>
+                        <li class="inline-block mx-5">
+                            <a href="#kontak" class="hover:text-slate-500">Hubungi Kami</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
 </body>
 
 </html>
