@@ -706,6 +706,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0.5rem;
 }
 
+.right-\[50\%\] {
+  right: 50%;
+}
+
+.right-\[60\%\] {
+  right: 60%;
+}
+
+.right-\[40\%\] {
+  right: 40%;
+}
+
+.right-\[44\%\] {
+  right: 44%;
+}
+
+.right-\[45\%\] {
+  right: 45%;
+}
+
+.right-\[46\%\] {
+  right: 46%;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -1092,6 +1116,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
+.border-8 {
+  border-width: 8px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
 .border-slate-500 {
   --tw-border-opacity: 1;
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
@@ -1115,6 +1147,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-slate-700 {
   --tw-border-opacity: 1;
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
+}
+
+.border-b-slate-500 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
 .bg-\[\#DAD992\] {

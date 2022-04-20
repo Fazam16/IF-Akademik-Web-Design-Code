@@ -25,222 +25,234 @@
 </head>
 
 <body class="overflow-x-hidden ">
-    <div class="container max-w-full h-14 bg-[#DAD992] " id="home ">
-        <div class="flex gap-2 sm:gap-4 ">
-            <img src="./img/PROV JAMBI_PNG.png " alt="logo provinsi jambi " class="w-14 h-12 pt-2 pl-4 sm:w-16 sm:h-12 sm:pt-2 sm:pl-7 ">
-            <h1 class="kaushan text-2xl py-3 ">Kebudayaan Jambi</h1>
+    <div class="container max-w-full h-14 bg-[#DAD992]" id="home">
+        <div class="flex gap-2 sm:gap-4">
+            <img src="./img/PROV JAMBI_PNG.png" alt="logo provinsi jambi" class="w-14 h-12 pt-2 pl-4 sm:w-16 sm:h-12 sm:pt-2 sm:pl-7">
+            <h1 class="kaushan text-2xl py-3">Kebudayaan Jambi</h1>
 
-            <div class="w-full hidden lg:block absolute text-center top-4 font-bold ">
-                <a href="#home " class="inline-block mx-5 poppins hover:text-slate-400 ">Home</a>
-                <a href="#kategori " class="inline-block mx-5 poppins hover:text-slate-400 ">Kategori</a>
-                <a href="#kontak " class="inline-block mx-5 poppins hover:text-slate-400 ">Hubungi Kami</a>
+            <div class="w-full hidden lg:block absolute text-center top-4 font-bold">
+                <a href="#home" class="inline-block mx-5 poppins hover:text-slate-400">Home</a>
+
+                <button type="button" name="kategori" id="kategori" class="inline-block mx-5 poppins hover:text-slate-400 font-bold">
+                    Kategori
+                </button>
+
+                <div id="drop" class="hidden bg-[#E6DF9A] absolute right-[46%] poppins px-5 py-3 font-semibold top-10 customShadow rounded-xl">
+                    <ul>
+                        <li class="border-b-2 border-b-slate-500"><a href="tarian.html" class="hover:text-slate-500">Tarian Daerah</a></li>
+                        <li class="border-b-2 border-b-slate-500"><a href="lagu.html" class="hover:text-slate-500">Lagu Daerah</a></li>
+                        <li class="border-b-2 border-b-slate-500"><a href="#" class="hover:text-slate-500">Makanan Daerah</a></li>
+                    </ul>
+                </div>
+
+                <a href="#kontak" class="inline-block mx-5 poppins hover:text-slate-400">Hubungi Kami</a>
+
             </div>
 
-            <div class="flex items-center px-4 lg:hidden ">
-                <button type="button " id="hamburger " name="hamburger " class="absolute right-4 ">
-                        <span class="hamburger transition duration-300 ease-in-out origin-top-left "></span>
-                        <span class="hamburger transition duration-300 ease-in-out "></span>
-                        <span class="hamburger transition duration-300 ease-in-out origin-bottom-left "></span>
-                    </button>
+            <div class="flex items-center px-4 lg:hidden">
+                <button type="button" id="hamburger" name="hamburger" class="absolute right-4">
+                    <span class="hamburger transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger transition duration-300 ease-in-out"></span>
+                    <span class="hamburger transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
 
-                <nav id="nav-menu " class="hidden absolute poppins px-5 py-3 font-semibold bg-[#E6DF9A] customShadow rounded-l-2xl border-4 border-slate-500 rounded-br-2xl max-w-[250-px] right-10 top-6 ">
-                    <ul class="block ">
-                        <li class="inline-block mx-5 ">
-                            <a href="#home " class="hover:text-slate-500 ">Home</a>
+                <nav id="nav-menu" class="hidden absolute poppins px-5 py-3 font-semibold bg-[#E6DF9A] customShadow rounded-l-2xl border-2 border-slate-500 rounded-br-2xl max-w-[250-px] right-10 top-6">
+                    <ul class="block">
+                        <li class="inline-block mx-5">
+                            <a href="#home" class="hover:text-slate-500">Home</a>
                         </li>
-                        <li class="inline-block mx-5 ">
-                            <a href="#kategori " class="hover:text-slate-500 ">Kategori</a>
+                        <li class="inline-block mx-5">
+                            <a href="#kategori" class="hover:text-slate-500">Kategori</a>
                         </li>
-                        <li class="inline-block mx-5 ">
-                            <a href="#kontak " class="hover:text-slate-500 ">Hubungi Kami</a>
+                        <li class="inline-block mx-5">
+                            <a href="#kontak" class="hover:text-slate-500">Hubungi Kami</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
-    </div>
 
-    <div class="containter max-w-xl sm:max-w-[60rem] mx-auto lg:max-w-7xl xl:max-w-full ">
-        <div class="carousel p-5 sm:flex lg:h-[450px] xl:h-[500px] ">
-            <div class="kanan relative lg:h-[420px] sm:hidden top-7 ">
-                <div class="w-52 h-52 bg-[#DAD992] rounded-full absolute top-5 left-8 sm:hidden "></div>
-                <div class="w-60 h-60 bg-[#F3ED9E] rounded-full absolute bottom-4 right-8 sm:hidden "></div>
-                <img src="./img/image-removebg-preview.png " alt="Baju Adat Jambi " class="w-[-210px] h-[405px] relative left-7 sm:static sm:mx-auto ">
-            </div>
-            <div class="kiri sm:relative ">
-                <div class="hidden w-32 h-32 bg-[#DAD992] rounded-full absolute bottom-0 sm:block lg:hidden opacity-50 md:bottom-20 "></div>
-                <div class="hidden w-52 h-52 bg-[#F3ED9E] rounded-full absolute top-4 -right-32 lg:hidden sm:block opacity-75 "></div>
-                <div class="sm:relative mt-10 lg:mt-24 ">
-                    <span>
+        <div class="containter max-w-xl sm:max-w-[60rem] mx-auto lg:max-w-7xl xl:max-w-full ">
+            <div class="carousel p-5 sm:flex lg:h-[450px] xl:h-[500px] ">
+                <div class="kanan relative lg:h-[420px] sm:hidden top-7 ">
+                    <div class="w-52 h-52 bg-[#DAD992] rounded-full absolute top-5 left-8 sm:hidden "></div>
+                    <div class="w-60 h-60 bg-[#F3ED9E] rounded-full absolute bottom-4 right-8 sm:hidden "></div>
+                    <img src="./img/image-removebg-preview.png " alt="Baju Adat Jambi " class="w-[-210px] h-[405px] relative left-7 sm:static sm:mx-auto ">
+                </div>
+                <div class="kiri sm:relative ">
+                    <div class="hidden w-32 h-32 bg-[#DAD992] rounded-full absolute bottom-0 sm:block lg:hidden opacity-50 md:bottom-20 "></div>
+                    <div class="hidden w-52 h-52 bg-[#F3ED9E] rounded-full absolute top-4 -right-32 lg:hidden sm:block opacity-75 "></div>
+                    <div class="sm:relative mt-10 lg:mt-24 ">
+                        <span>
                     <h1 class="kanit font-bold text-3xl xl:text-5xl ">Selamat Datang di Website</h1>
                     <h2 class="kaushan font-medium text-2xl xl:text-4xl my-1 ">Kebudyaan Provinsi Jambi</h2>
                     <h3 class="kanit font-semibold text-xl xl:text-3xl my-1 mb-5 ">Sepucuk Jambi Sembilan Lurah</h3>
                 </span>
-                    <p class="text-justify text-slate-900 xl:text-lg ">
-                        Website resmi kebudayaan Provinsi Jambi yang memiliki tujuan untuk dapat memperkenalkan keragamanbudaya yang terdapat di Provinsi Jambi. Menunjukan keberagaman dari tiap-tiap daerah dari tiap-tiapkabupaten yang terdapat di bumi Sepucuk Jambi Sembilan
-                        Lurah....
-                    </p>
+                        <p class="text-justify text-slate-900 xl:text-lg ">
+                            Website resmi kebudayaan Provinsi Jambi yang memiliki tujuan untuk dapat memperkenalkan keragamanbudaya yang terdapat di Provinsi Jambi. Menunjukan keberagaman dari tiap-tiap daerah dari tiap-tiapkabupaten yang terdapat di bumi Sepucuk Jambi Sembilan
+                            Lurah....
+                        </p>
+                    </div>
+                </div>
+                <div class="hidden sm:block sm:w-[1800px] sm:relative ">
+                    <div class="hidden lg:block -right-5 absolute w-full h-80 bg-cover rounded-l-full mt-10 border-4 border-[#DAD992] " style="background-image: url( './img/rumah\ adat\ jambi.jpg'); "></div>
+                    <img src="./img/image-removebg-preview.png " alt="Penganten " class="lg:absolute lg:left-20 xl:left-40 ">
                 </div>
             </div>
-            <div class="hidden sm:block sm:w-[1800px] sm:relative ">
-                <div class="hidden lg:block -right-5 absolute w-full h-80 bg-cover rounded-l-full mt-10 border-4 border-[#DAD992] " style="background-image: url( './img/rumah\ adat\ jambi.jpg'); "></div>
-                <img src="./img/image-removebg-preview.png " alt="Penganten " class="lg:absolute lg:left-20 xl:left-40 ">
-            </div>
-        </div>
-        <div class="sejarah my-3 p-5 lg:p-0 ">
-            <div class="kiri bg-[#E6DF9A] rounded-xl customShadow lg:w-1/2 lg:rounded-r-full lg:rounded-l-none ">
-                <h2 class="poppins p-5 text-center text-2xl font-bold stroke-white stroke-2 ">Sejarah Singkat Provinsi Jambi</h2>
-            </div>
-            <div class="sejarah lg:p-5 lg:hidden ">
-                <p class="first-letter:float-left first-letter:text-7xl first-letter:mr-2 text-justify mt-6 sm:text-lg ">
-                    Dengan berakhirnya masa kesultanan Jambi menyusul gugurnya Sulthan Thaha Saifuddin tanggal 27 April 1904 dan berhasilnya Belanda menguasai wilayah-wilayah Kesultanan Jambi, maka Jambi ditetapkan sebagai Keresidenan dan masuk ke dalam wilayah Nederlandsch
-                    Indie. Residen Jambi yang pertama O.L Helfrich yang diangkat berdasarkan Keputusan Gubernur Jenderal Belanda No. 20 tanggal 4 Mei 1906 dan pelantikannya dilaksanakan tanggal 2 Juli 1906. <a href="# " class="sm:hidden text-blue-400
-    hover:text-blue-900 ">Selengkapnya...</a>
-                </p>
-                <p class="hidden text-lg text-justify mt-5 sm:block paragraf lg:hidden ">
-                    Pada tanggal 18 April 1946 Komite Nasional Indonesia Sumatera bersidang di Bukittinggi memutuskan Provinsi Sumatera terdiri dari tiga Sub Provinsi yaitu Sub Provinsi Sumatera Utara, Sumatera Tengah dan Sumatera Selatan. Sub Provinsi Sumatera Tengah mencakup
-                    keresidenan Sumatra Barat, Riau dan Jambi. Tarik menarik Keresidenan Jambi untuk masuk ke Sumatera Selatan atau Sumatera Tengah ternyata cukup alot dan akhirnya ditetapkan dengan pemungutan suara pada Sidang KNI Sumatera tersebut dan
-                    Keresidenan Jambi masuk ke Sumatera Tengah. Sub-sub Provinsi dari Provinsi Sumatera ini kemudian dengan undang-undang nomor 10 tahun 1948 ditetapkan sebagai Provinsi.
-                    <span class="hidden sm:inline xl:hidden "><a href="# " class="text-blue-400 hover:text-blue-900 ">Selengkapnya...</a></span>
-                </p>
-            </div>
-            <div class="hidden lg:flex ">
-                <div class="p-5 w-full mx-auto relative ">
-                    <div class="lg:w-42 lg:h-42 xl:w-72 xl:h-72 absolute bg-[#DAD992] xl:top-48 xl:-left-20 rounded-full opacity-50 "></div>
-                    <div class="lg:w-42 lg:h-42 xl:w-[24rem] xl:h-[24rem] bg-[#DAD992] absolute xl:-right-24 xl:-top-20 rounded-full opacity-50 "></div>
-                    <div class="lg:w-42 lg-h-42 xl:w-[15rem] xl:h-[15rem] bg-[#F3ED9E] absolute xl:right-52 xl:top-40 rounded-full opacity-50 "></div>
-                    <div class="w-52 h-52 opacity-50 bg-[#DAD992] xl:hidden absolute bottom-4 -left-10 rounded-full "></div>
-                    <div class="w-64 h-64 opacity-50 bg-[#DAD992] xl:hidden absolute -top-5 -right-10 rounded-full "></div>
-                    <div class="w-52 h-52 opacity-50 bg-[#DAD992] xl:hidden absolute top-32 right-36 rounded-full "></div>
-                    <p class="first-letter:float-left first-letter:text-7xl text-lg first-letter:mr-2 text-justify mt-6 relative ">
+            <div class="sejarah my-3 p-5 lg:p-0 ">
+                <div class="kiri bg-[#E6DF9A] rounded-xl customShadow lg:w-1/2 lg:rounded-r-full lg:rounded-l-none ">
+                    <h2 class="poppins p-5 text-center text-2xl font-bold stroke-white stroke-2 ">Sejarah Singkat Provinsi Jambi</h2>
+                </div>
+                <div class="sejarah lg:p-5 lg:hidden ">
+                    <p class="first-letter:float-left first-letter:text-7xl first-letter:mr-2 text-justify mt-6 sm:text-lg ">
                         Dengan berakhirnya masa kesultanan Jambi menyusul gugurnya Sulthan Thaha Saifuddin tanggal 27 April 1904 dan berhasilnya Belanda menguasai wilayah-wilayah Kesultanan Jambi, maka Jambi ditetapkan sebagai Keresidenan dan masuk ke dalam wilayah Nederlandsch
-                        Indie. Residen Jambi yang pertama O.L Helfrich yang diangkat berdasarkan Keputusan Gubernur Jenderal Belanda No. 20 tanggal 4 Mei 1906 dan pelantikannya dilaksanakan tanggal 2 Juli 1906. <span class="lg:hidden "><a href="#
-    " class="text-blue-400 hover:text-blue-900 ">Selengkapnya...</a></span>
+                        Indie. Residen Jambi yang pertama O.L Helfrich yang diangkat berdasarkan Keputusan Gubernur Jenderal Belanda No. 20 tanggal 4 Mei 1906 dan pelantikannya dilaksanakan tanggal 2 Juli 1906. <a href="# " class="sm:hidden text-blue-400
+    hover:text-blue-900 ">Selengkapnya...</a>
                     </p>
-                    <p class="text-lg text-justify mt-6 paragraf block relative ">
+                    <p class="hidden text-lg text-justify mt-5 sm:block paragraf lg:hidden ">
                         Pada tanggal 18 April 1946 Komite Nasional Indonesia Sumatera bersidang di Bukittinggi memutuskan Provinsi Sumatera terdiri dari tiga Sub Provinsi yaitu Sub Provinsi Sumatera Utara, Sumatera Tengah dan Sumatera Selatan. Sub Provinsi Sumatera Tengah mencakup
                         keresidenan Sumatra Barat, Riau dan Jambi. Tarik menarik Keresidenan Jambi untuk masuk ke Sumatera Selatan atau Sumatera Tengah ternyata cukup alot dan akhirnya ditetapkan dengan pemungutan suara pada Sidang KNI Sumatera tersebut
                         dan Keresidenan Jambi masuk ke Sumatera Tengah. Sub-sub Provinsi dari Provinsi Sumatera ini kemudian dengan undang-undang nomor 10 tahun 1948 ditetapkan sebagai Provinsi.
-
-                    </p>
-                    <p class="hidden text-lg text-justify mt-6 paragraf lg:block relative ">
-                        Dalam UU No. 61 tahun 1958 disebutkan pada pasal 1 hurup b, bahwa daerah Swatantra Tingkat I Jambi wilayahnya mencakup wilayah daerah Swatantra Tingkat II Batanghari, Merangin, dan Kota Praja Jambi serta Kecamatan-Kecamatan Kerinci Hulu, Tengah dan Hilir.
-                        Kelanjutan UU No. 61 tahun 1958 tersebut pada tanggal 19 Desember 1958 Mendagri Sanoesi Hardjadinata mengangkat dan menetapkan Djamin gr. Datuk Bagindo Residen Jambi sebagai Dienst Doend DD Gubernur (residen yang ditugaskan sebagai
-                        Gubernur Provinsi Jambi dengan SK Nomor UP/5/8/4). Keputusan BKRD 6 Januari 1957 ditetapkan sebagai hari jadi Provinsi Jambi, sebagaimana tertuang dalam Peraturan Daerah Provinsi Djambi Nomor. 1 Tahun 1970 tanggal 7 Juni 1970 tentang
-                        Hari Lahir Provinsi Djambi.
-                        <span class="lg:inline "><a href="# " class="text-blue-400 hover:text-blue-900 ">Selengkapnya...</a></span>
+                        <span class="hidden sm:inline xl:hidden "><a href="# " class="text-blue-400 hover:text-blue-900 ">Selengkapnya...</a></span>
                     </p>
                 </div>
-            </div>
-        </div>
+                <div class="hidden lg:flex ">
+                    <div class="p-5 w-full mx-auto relative ">
+                        <div class="lg:w-42 lg:h-42 xl:w-72 xl:h-72 absolute bg-[#DAD992] xl:top-48 xl:-left-20 rounded-full opacity-50 "></div>
+                        <div class="lg:w-42 lg:h-42 xl:w-[24rem] xl:h-[24rem] bg-[#DAD992] absolute xl:-right-24 xl:-top-20 rounded-full opacity-50 "></div>
+                        <div class="lg:w-42 lg-h-42 xl:w-[15rem] xl:h-[15rem] bg-[#F3ED9E] absolute xl:right-52 xl:top-40 rounded-full opacity-50 "></div>
+                        <div class="w-52 h-52 opacity-50 bg-[#DAD992] xl:hidden absolute bottom-4 -left-10 rounded-full "></div>
+                        <div class="w-64 h-64 opacity-50 bg-[#DAD992] xl:hidden absolute -top-5 -right-10 rounded-full "></div>
+                        <div class="w-52 h-52 opacity-50 bg-[#DAD992] xl:hidden absolute top-32 right-36 rounded-full "></div>
+                        <p class="first-letter:float-left first-letter:text-7xl text-lg first-letter:mr-2 text-justify mt-6 relative ">
+                            Dengan berakhirnya masa kesultanan Jambi menyusul gugurnya Sulthan Thaha Saifuddin tanggal 27 April 1904 dan berhasilnya Belanda menguasai wilayah-wilayah Kesultanan Jambi, maka Jambi ditetapkan sebagai Keresidenan dan masuk ke dalam wilayah Nederlandsch
+                            Indie. Residen Jambi yang pertama O.L Helfrich yang diangkat berdasarkan Keputusan Gubernur Jenderal Belanda No. 20 tanggal 4 Mei 1906 dan pelantikannya dilaksanakan tanggal 2 Juli 1906. <span class="lg:hidden "><a href="#
+    " class="text-blue-400 hover:text-blue-900 ">Selengkapnya...</a></span>
+                        </p>
+                        <p class="text-lg text-justify mt-6 paragraf block relative ">
+                            Pada tanggal 18 April 1946 Komite Nasional Indonesia Sumatera bersidang di Bukittinggi memutuskan Provinsi Sumatera terdiri dari tiga Sub Provinsi yaitu Sub Provinsi Sumatera Utara, Sumatera Tengah dan Sumatera Selatan. Sub Provinsi Sumatera Tengah mencakup
+                            keresidenan Sumatra Barat, Riau dan Jambi. Tarik menarik Keresidenan Jambi untuk masuk ke Sumatera Selatan atau Sumatera Tengah ternyata cukup alot dan akhirnya ditetapkan dengan pemungutan suara pada Sidang KNI Sumatera tersebut
+                            dan Keresidenan Jambi masuk ke Sumatera Tengah. Sub-sub Provinsi dari Provinsi Sumatera ini kemudian dengan undang-undang nomor 10 tahun 1948 ditetapkan sebagai Provinsi.
 
-        <div class="kebudayaan p-5 " id="kategori ">
-            <div class="bg-[#E6DF9A] lg:rounded-full lg:max-w-4xl lg:mx-auto rounded-xl customShadow ">
-                <h2 class="poppins p-5 text-center font-bold text-2xl ">Kebudayaan yang Terdapat <br class="md:hidden "> di Provinsi Jambi</h2>
+                        </p>
+                        <p class="hidden text-lg text-justify mt-6 paragraf lg:block relative ">
+                            Dalam UU No. 61 tahun 1958 disebutkan pada pasal 1 hurup b, bahwa daerah Swatantra Tingkat I Jambi wilayahnya mencakup wilayah daerah Swatantra Tingkat II Batanghari, Merangin, dan Kota Praja Jambi serta Kecamatan-Kecamatan Kerinci Hulu, Tengah dan Hilir.
+                            Kelanjutan UU No. 61 tahun 1958 tersebut pada tanggal 19 Desember 1958 Mendagri Sanoesi Hardjadinata mengangkat dan menetapkan Djamin gr. Datuk Bagindo Residen Jambi sebagai Dienst Doend DD Gubernur (residen yang ditugaskan
+                            sebagai Gubernur Provinsi Jambi dengan SK Nomor UP/5/8/4). Keputusan BKRD 6 Januari 1957 ditetapkan sebagai hari jadi Provinsi Jambi, sebagaimana tertuang dalam Peraturan Daerah Provinsi Djambi Nomor. 1 Tahun 1970 tanggal 7
+                            Juni 1970 tentang Hari Lahir Provinsi Djambi.
+                            <span class="lg:inline "><a href="sejarah-jambi.html" class="text-blue-400 hover:text-blue-900 ">Selengkapnya...</a></span>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="lg:hidden card sm:flex sm:gap-5 justify-center max-w-full ">
-                <div class="konten max-w-xl sm:h-[16.5rem] bg-white mt-10 p-6 sm:p-2 border-2 rounded-2xl customShadow ">
-                    <a href="tarian.html ">
-                        <img src="./img/Tarian.jfif " alt="Foto tarian " class="w-full h-72 sm:h-36 rounded-2xl ">
-                        <h3 class="mt-4 poppins font-bold text-md ">Tarian daerah yang berasal dari Provinsi Jambi</h3>
-                    </a>
+
+            <div class="kebudayaan p-5 " id="kategori ">
+                <div class="bg-[#E6DF9A] lg:rounded-full lg:max-w-4xl lg:mx-auto rounded-xl customShadow ">
+                    <h2 class="poppins p-5 text-center font-bold text-2xl ">Kebudayaan yang Terdapat <br class="md:hidden "> di Provinsi Jambi</h2>
                 </div>
-                <div class="konten max-w-xl sm:h-[16.5rem] bg-white mt-10 p-6 sm:p-2 border-2 rounded-2xl customShadow ">
-                    <a href="lagu.html ">
-                        <img src="./img/Lagu.png " alt="Foto lagu kedaerahan " class="w-full h-72 sm:h-36 rounded-2xl ">
-                        <h3 class="mt-4 poppins font-bold text-md ">Lagu daerah yang berasal dari Provinsi Jambi</h3>
-                    </a>
-                </div>
-                <div class="">
-                    <div class="konten max-w-xl sm:h-[16.5rem] peer bg-white mt-10 p-6 sm:p-2 border-2 rounded-2xl customShadow ">
-                        <a href="# ">
-                            <img src="./img/maknanananan.jpg " alt="Foto makanan khas " class="w-full h-72 sm:h-36 rounded-2xl peer ">
-                            <h3 class="mt-4 poppins font-bold text-md ">Makanan daerah yang berasal dari Provinsi Jambi</h3>
+                <div class="lg:hidden card sm:flex sm:gap-5 justify-center max-w-full ">
+                    <div class="konten max-w-xl sm:h-[16.5rem] bg-white mt-10 p-6 sm:p-2 border-2 rounded-2xl customShadow ">
+                        <a href="tarian.html ">
+                            <img src="./img/Tarian.jfif " alt="Foto tarian " class="w-full h-72 sm:h-36 rounded-2xl ">
+                            <h3 class="mt-4 poppins font-bold text-md ">Tarian daerah yang berasal dari Provinsi Jambi</h3>
                         </a>
                     </div>
-                    <p class="text-red-600 peer-hover:visible invisible mt-2 text-center">Mohon maaf, Fitur ini belum tersedia</p>
+                    <div class="konten max-w-xl sm:h-[16.5rem] bg-white mt-10 p-6 sm:p-2 border-2 rounded-2xl customShadow ">
+                        <a href="lagu.html ">
+                            <img src="./img/Lagu.png " alt="Foto lagu kedaerahan " class="w-full h-72 sm:h-36 rounded-2xl ">
+                            <h3 class="mt-4 poppins font-bold text-md ">Lagu daerah yang berasal dari Provinsi Jambi</h3>
+                        </a>
+                    </div>
+                    <div class="">
+                        <div class="konten max-w-xl sm:h-[16.5rem] peer bg-white mt-10 p-6 sm:p-2 border-2 rounded-2xl customShadow ">
+                            <a href="# ">
+                                <img src="./img/maknanananan.jpg " alt="Foto makanan khas " class="w-full h-72 sm:h-36 rounded-2xl peer ">
+                                <h3 class="mt-4 poppins font-bold text-md ">Makanan daerah yang berasal dari Provinsi Jambi</h3>
+                            </a>
+                        </div>
+                        <p class="text-red-600 peer-hover:visible invisible mt-2 text-center">Mohon maaf, Fitur ini belum tersedia</p>
+                    </div>
+                </div>
+
+                <div class="hidden lg:block max-w-full pt-12 lg:px-8 xl:px-24 ">
+                    <div class="max-w-full flex justify-center ">
+                        <div class="p-5 xl:w-96 xl:h-96 lg:w-[22rem] lg:h-[22rem] rounded-full bg-[#E6DF9A] absolute lg:left-10 xl:left-28 ">
+                            <img src="./img/Tarian.jfif " alt="Foto tarian " class="rounded-full border-4 border-white xl:h-80 xl:w-80 lg:w-[18rem] lg:h-[18rem] mx-auto mt-3 ">
+                        </div>
+                        <div class="border-4 border-[#CDCC80] lg:h-[19rem] xl:h-[20rem] lg:mt-7 lg:w-[920px] ml-56 xl:w-full p-5 ">
+                            <div class="border-4 border-slate-700 xl:h-[17rem] lg:h-[16rem] ">
+                                <div class="lg:pl-[100px] xl:pl-[150px] xl:pr-5 py-3 lg:pr-4 text-justify ">
+                                    <h1 class="poppins lg:text-3xl xl:text-5xl font-bold text-[#484848] mb-2 ">TARIAN DAERAH</h1>
+                                    <p class="poppins lg:text-sm xl:text-[10pt] xl:first-letter:text-5xl first-letter:uppercase first-letter:float-left lg:first-letter:text-3xl lg:first-letter:pr-2 ">
+                                        Jambi adalah provinsi yang ada di Pulau Sumatera dimana mayoritas masyarakatnya adalah Suku Melayu. Dengan ini, maka kebudayaan Melayu juga sangat lekat dengan kehidupan masyarakat. Salah satu kebudayaan Jambi yang masih bisa kita nikmati hingga sekarang
+                                        adalah tarian tradisional khas yang beragam sekaligus memiliki kostum unik dan memiliki nilai filosofi yang berbeda beda. Beberapa Tarian Daerah yang berasal dari provinsi jambi antara lain adalah Tari Sekapur Sirih,
+                                        Tari Selampit Delapan, Tari Rentak Kudo....
+                                    </p>
+                                    <div class="text-right ">
+                                        <a href="tarian.html " class="hover:bg-[#A6A559] poppins px-3 xl:px-12 xl:py-3 text-white py-1 rounded-3xl font-bold inline-block mt-2 bg-[#CDCC80] lg:text-sm ">Selengkapnya...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-full flex justify-center my-20 ">
+                        <div class="border-4 border-[#CDCC80] lg:h-[20rem] xl:h-[20rem] lg:mt-4 xl:mt-7 lg:w-[920px] mr-56 xl:w-full p-5 ">
+                            <div class="border-4 border-slate-700 xl:h-[17rem] lg:h-[16.7rem] ">
+                                <div class="lg:pr-[100px] xl:pr-[150px] py-3 lg:pl-4 text-justify ">
+                                    <div class="text-right ">
+                                        <h1 class="poppins font-bold text-[#484848] mb-2 lg:text-3xl xl:text-5xl ">LAGU DAERAH</h1>
+                                    </div>
+                                    <p class="poppins xl:text-[10pt] lg:text-sm first-letter:uppercase xl:first-letter:text-5xl first-letter:float-left lg:first-letter:text-3xl lg:first-letter:pr-2 ">
+                                        Jambi adalah provinsi yang ada di Pulau Sumatera dimana mayoritas masyarakatnya adalah Suku Melayu. Dengan ini, maka kebudayaan Melayu juga sangat lekat dengan kehidupan masyarakat. Salah satu kebudayaan Jambi yang masih bisa kita nikmati hingga sekarang
+                                        adalah tarian tradisional khas yang beragam sekaligus memiliki kostum unik dan memiliki nilai filosofi yang berbeda beda. Beberapa Tarian Daerah yang berasal dari provinsi jambi antara lain adalah Tari Sekapur Sirih,
+                                        Tari Selampit Delapan, Tari Rentak Kudo....
+                                    </p>
+                                    <a href="lagu.html " class="hover:bg-[#A6A559] poppins px-3 xl:px-12 xl:py-3 text-white py-1 rounded-3xl font-bold inline-block mt-2 bg-[#CDCC80] lg:text-sm ">Selengkapnya...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-5 xl:w-96 xl:h-96 lg:w-[22rem] lg:h-[22rem] rounded-full bg-[#E6DF9A] absolute lg:right-10 xl:right-28 ">
+                            <img src="./img/Lagu.png " alt="Foto tarian " class="border-4 border-white rounded-full xl:h-80 xl:w-80 lg:w-[18rem] lg:h-[18rem] mx-auto mt-3 ">
+                        </div>
+                    </div>
+                    <div class="max-w-full flex justify-center ">
+                        <div class="p-5 xl:w-96 xl:h-96 lg:w-[22rem] lg:h-[22rem] rounded-full bg-[#E6DF9A] absolute lg:left-10 xl:left-28 ">
+                            <img src="./img/maknanananan.jpg " alt="Foto tarian " class="border-4 border-white rounded-full xl:h-80 xl:w-80 lg:w-[18rem] lg:h-[18rem] mx-auto mt-3 ">
+                        </div>
+                        <div class="border-4 border-[#CDCC80] lg:h-[19rem] xl:h-[20rem] lg:mt-7 lg:w-[920px] ml-56 xl:w-full p-5 ">
+                            <div class="border-4 border-slate-700 xl:h-[17rem] lg:h-[16rem] ">
+                                <div class="lg:pl-[100px] xl:pl-[150px] xl:pr-5 py-3 lg:pr-4 text-justify ">
+                                    <h1 class="poppins lg:text-3xl xl:text-5xl font-bold text-[#484848] mb-2 ">MAKANAN KHAS DAERAH</h1>
+                                    <p class="poppins lg:text-sm xl:text-[10pt] xl:first-letter:text-5xl first-letter:uppercase first-letter:float-left lg:first-letter:text-3xl lg:first-letter:pr-2 ">
+                                        Jambi adalah provinsi yang ada di Pulau Sumatera dimana mayoritas masyarakatnya adalah Suku Melayu. Dengan ini, maka kebudayaan Melayu juga sangat lekat dengan kehidupan masyarakat. Salah satu kebudayaan Jambi yang masih bisa kita nikmati hingga sekarang
+                                        adalah tarian tradisional khas yang beragam sekaligus memiliki kostum unik dan memiliki nilai filosofi yang berbeda beda. Beberapa Tarian Daerah yang berasal dari provinsi jambi antara lain adalah Tari Sekapur Sirih,
+                                        Tari Selampit Delapan, Tari Rentak Kudo....
+                                    </p>
+                                    <div class="text-right relative ">
+                                        <a href="# " class="hover:bg-[#A6A559] peer poppins px-3 xl:px-12 xl:py-3 text-white py-1 rounded-3xl font-bold inline-block mt-2 bg-[#CDCC80] lg:text-sm ">Selengkapnya...</a>
+                                        <p class="text-red-600 mt-1 invisible mr-4 peer-hover:visible inline-block absolute right-36 top-1 xl:right-52 xl:top-3 ">Mohon Maaf, Fitur belum ditambahkan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="hidden lg:block max-w-full pt-12 lg:px-8 xl:px-24 ">
-                <div class="max-w-full flex justify-center ">
-                    <div class="p-5 xl:w-96 xl:h-96 lg:w-[22rem] lg:h-[22rem] rounded-full bg-[#E6DF9A] absolute lg:left-10 xl:left-28 ">
-                        <img src="./img/Tarian.jfif " alt="Foto tarian " class="rounded-full border-4 border-white xl:h-80 xl:w-80 lg:w-[18rem] lg:h-[18rem] mx-auto mt-3 ">
-                    </div>
-                    <div class="border-4 border-[#CDCC80] lg:h-[19rem] xl:h-[20rem] lg:mt-7 lg:w-[920px] ml-56 xl:w-full p-5 ">
-                        <div class="border-4 border-slate-700 xl:h-[17rem] lg:h-[16rem] ">
-                            <div class="lg:pl-[100px] xl:pl-[150px] xl:pr-5 py-3 lg:pr-4 text-justify ">
-                                <h1 class="poppins lg:text-3xl xl:text-5xl font-bold text-[#484848] mb-2 ">TARIAN DAERAH</h1>
-                                <p class="poppins lg:text-sm xl:text-[10pt] xl:first-letter:text-5xl first-letter:uppercase first-letter:float-left lg:first-letter:text-3xl lg:first-letter:pr-2 ">
-                                    Jambi adalah provinsi yang ada di Pulau Sumatera dimana mayoritas masyarakatnya adalah Suku Melayu. Dengan ini, maka kebudayaan Melayu juga sangat lekat dengan kehidupan masyarakat. Salah satu kebudayaan Jambi yang masih bisa kita nikmati hingga sekarang
-                                    adalah tarian tradisional khas yang beragam sekaligus memiliki kostum unik dan memiliki nilai filosofi yang berbeda beda. Beberapa Tarian Daerah yang berasal dari provinsi jambi antara lain adalah Tari Sekapur Sirih,
-                                    Tari Selampit Delapan, Tari Rentak Kudo....
-                                </p>
-                                <div class="text-right ">
-                                    <a href="tarian.html " class="hover:bg-[#A6A559] poppins px-3 xl:px-12 xl:py-3 text-white py-1 rounded-3xl font-bold inline-block mt-2 bg-[#CDCC80] lg:text-sm ">Selengkapnya...</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="max-w-full flex justify-center my-20 ">
-                    <div class="border-4 border-[#CDCC80] lg:h-[20rem] xl:h-[20rem] lg:mt-4 xl:mt-7 lg:w-[920px] mr-56 xl:w-full p-5 ">
-                        <div class="border-4 border-slate-700 xl:h-[17rem] lg:h-[16.7rem] ">
-                            <div class="lg:pr-[100px] xl:pr-[150px] py-3 lg:pl-4 text-justify ">
-                                <div class="text-right ">
-                                    <h1 class="poppins font-bold text-[#484848] mb-2 lg:text-3xl xl:text-5xl ">LAGU DAERAH</h1>
-                                </div>
-                                <p class="poppins xl:text-[10pt] lg:text-sm first-letter:uppercase xl:first-letter:text-5xl first-letter:float-left lg:first-letter:text-3xl lg:first-letter:pr-2 ">
-                                    Jambi adalah provinsi yang ada di Pulau Sumatera dimana mayoritas masyarakatnya adalah Suku Melayu. Dengan ini, maka kebudayaan Melayu juga sangat lekat dengan kehidupan masyarakat. Salah satu kebudayaan Jambi yang masih bisa kita nikmati hingga sekarang
-                                    adalah tarian tradisional khas yang beragam sekaligus memiliki kostum unik dan memiliki nilai filosofi yang berbeda beda. Beberapa Tarian Daerah yang berasal dari provinsi jambi antara lain adalah Tari Sekapur Sirih,
-                                    Tari Selampit Delapan, Tari Rentak Kudo....
-                                </p>
-                                <a href="lagu.html " class="hover:bg-[#A6A559] poppins px-3 xl:px-12 xl:py-3 text-white py-1 rounded-3xl font-bold inline-block mt-2 bg-[#CDCC80] lg:text-sm ">Selengkapnya...</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-5 xl:w-96 xl:h-96 lg:w-[22rem] lg:h-[22rem] rounded-full bg-[#E6DF9A] absolute lg:right-10 xl:right-28 ">
-                        <img src="./img/Lagu.png " alt="Foto tarian " class="border-4 border-white rounded-full xl:h-80 xl:w-80 lg:w-[18rem] lg:h-[18rem] mx-auto mt-3 ">
-                    </div>
-                </div>
-                <div class="max-w-full flex justify-center ">
-                    <div class="p-5 xl:w-96 xl:h-96 lg:w-[22rem] lg:h-[22rem] rounded-full bg-[#E6DF9A] absolute lg:left-10 xl:left-28 ">
-                        <img src="./img/maknanananan.jpg " alt="Foto tarian " class="border-4 border-white rounded-full xl:h-80 xl:w-80 lg:w-[18rem] lg:h-[18rem] mx-auto mt-3 ">
-                    </div>
-                    <div class="border-4 border-[#CDCC80] lg:h-[19rem] xl:h-[20rem] lg:mt-7 lg:w-[920px] ml-56 xl:w-full p-5 ">
-                        <div class="border-4 border-slate-700 xl:h-[17rem] lg:h-[16rem] ">
-                            <div class="lg:pl-[100px] xl:pl-[150px] xl:pr-5 py-3 lg:pr-4 text-justify ">
-                                <h1 class="poppins lg:text-3xl xl:text-5xl font-bold text-[#484848] mb-2 ">MAKANAN KHAS DAERAH</h1>
-                                <p class="poppins lg:text-sm xl:text-[10pt] xl:first-letter:text-5xl first-letter:uppercase first-letter:float-left lg:first-letter:text-3xl lg:first-letter:pr-2 ">
-                                    Jambi adalah provinsi yang ada di Pulau Sumatera dimana mayoritas masyarakatnya adalah Suku Melayu. Dengan ini, maka kebudayaan Melayu juga sangat lekat dengan kehidupan masyarakat. Salah satu kebudayaan Jambi yang masih bisa kita nikmati hingga sekarang
-                                    adalah tarian tradisional khas yang beragam sekaligus memiliki kostum unik dan memiliki nilai filosofi yang berbeda beda. Beberapa Tarian Daerah yang berasal dari provinsi jambi antara lain adalah Tari Sekapur Sirih,
-                                    Tari Selampit Delapan, Tari Rentak Kudo....
-                                </p>
-                                <div class="text-right relative ">
-                                    <a href="# " class="hover:bg-[#A6A559] peer poppins px-3 xl:px-12 xl:py-3 text-white py-1 rounded-3xl font-bold inline-block mt-2 bg-[#CDCC80] lg:text-sm ">Selengkapnya...</a>
-                                    <p class="text-red-600 mt-1 invisible mr-4 peer-hover:visible inline-block absolute right-36 top-1 xl:right-52 xl:top-3 ">Mohon Maaf, Fitur belum ditambahkan</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="footer pt-5 w-full mt-10" id="kontak ">
+            <div class="bg-[#DAD992] px-5 py-5 ">
+                <h4 class="poppins font-bold text-md text-center py-4 uppercase ">Dinas Kebudayaan dan Pariwisata</h4>
+                <p class="text-center ">Jl. K.H. Agus Salim Kota Baru Jambi.</p>
+                <p class="text-center ">Telp. (0741) 445054, 445056 Fax. (0741) 61545, 445054</p>
+            </div>
+            <div class="bg-[#CDCC80] ">
+                <p class="text-center py-3 font-bold poppins ">Copyright @2022 by Hawhaw Team</p>
             </div>
         </div>
-    </div>
-    <div class="footer pt-5 w-full mt-10" id="kontak ">
-        <div class="bg-[#DAD992] px-5 py-5 ">
-            <h4 class="poppins font-bold text-md text-center py-4 uppercase ">Dinas Kebudayaan dan Pariwisata</h4>
-            <p class="text-center ">Jl. K.H. Agus Salim Kota Baru Jambi.</p>
-            <p class="text-center ">Telp. (0741) 445054, 445056 Fax. (0741) 61545, 445054</p>
-        </div>
-        <div class="bg-[#CDCC80] ">
-            <p class="text-center py-3 font-bold poppins ">Copyright @2022 by Hawhaw Team</p>
-        </div>
-    </div>
 
 
-    <a href="#home "><img src="./img/scroll simbol.png " alt=" " class="fixed bottom-5 w-12 right-5 sm:right-10 md:right-6 sm:w-14 "></a>
-    <script src="./js/script.js "></script>
+        <a href="#home "><img src="./img/scroll simbol.png " alt=" " class="fixed bottom-5 w-12 right-5 sm:right-10 md:right-6 sm:w-14 "></a>
+        <script src="./js/script.js "></script>
 </body>
 
 </html>
